@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="350.0" style="-fx-background-color: #282828;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <JFXTextField fx:id="suser" focusColor="WHITE" labelFloat="true" layoutX="25.0" layoutY="100.0" maxHeight="-Infinity" minHeight="-Infinity" minWidth="300.0" opacity="0.7" prefHeight="30.0" promptText="User name" stylesheets="@../CSS/textfield.css" unFocusColor="GREY">
+         <font>
+            <Font size="16.0" />
+         </font></JFXTextField>
+      <JFXPasswordField fx:id="spassword" focusColor="WHITE" labelFloat="true" layoutX="25.0" layoutY="150.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" opacity="0.7" prefHeight="30.0" prefWidth="300.0" promptText="Password" stylesheets="@../CSS/textfield.css" unFocusColor="GREY">
+         <font>
+            <Font size="16.0" />
+         </font></JFXPasswordField>
+      <JFXButton fx:id="signUp" layoutX="40.0" layoutY="220.0" onMouseClicked="#signedUp" prefHeight="40.0" prefWidth="100.0" ripplerFill="WHITE" style="-fx-background-color: #404040; -fx-background-radius: 2;" text="SignIN" textFill="GREY">
+         <font>
+            <Font size="16.0" />
+         </font></JFXButton>
+      <JFXButton fx:id="cancel" layoutX="210.0" layoutY="220.0" onMouseClicked="#close" prefHeight="40.0" prefWidth="100.0" ripplerFill="WHITE" style="-fx-background-color: #404040; -fx-background-radius: 2;" text="Cancel" textFill="GREY">
+         <font>
+            <Font size="16.0" />
+         </font></JFXButton>
+      <JFXButton fx:id="backLoginView" contentDisplay="GRAPHIC_ONLY" layoutX="21.0" layoutY="26.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#back" prefHeight="36.0" prefWidth="36.0" ripplerFill="#282828" style="-fx-background-color: #282828;" text=" " textFill="GREY">
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="26.0">
+               <image>
+                  <Image url="@../IMAGES/left-arrow.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding></JFXButton>
+      <Label fx:id="sInfo" alignment="CENTER_RIGHT" contentDisplay="TEXT_ONLY" layoutX="125.0" layoutY="190.0" prefHeight="20.0" prefWidth="200.0" textFill="RED" />
+   </children>
+   <effect>
+      <DropShadow blurType="GAUSSIAN" />
+   </effect>
+</Pane>

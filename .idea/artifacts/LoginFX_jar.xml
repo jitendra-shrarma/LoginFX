@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="LoginFX:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/LoginFX_jar</output-path>
+    <root id="archive" name="LoginFX.jar">
+      <element id="module-output" name="LoginFX" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jars/jfoenix-9.0.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jars/controlsfx-9.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jars/sqlite-jdbc-3.21.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
