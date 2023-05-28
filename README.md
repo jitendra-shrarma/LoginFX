@@ -10,13 +10,9 @@ This is a JavaFX project that demonstrates Login and SignUp functionality using 
 ## Getting Started
 
 1. Clone the repository: git clone git@github.com:jitendra-shrarma/LoginFX.git
-
 2. Open the project in your preferred Java IDE.
-
 3. Set up the JavaFX SDK in your IDE by configuring the module path or adding the necessary VM options. Refer to your IDE's documentation for instructions specific to your setup.
-
 4. Build the project.
-
 5. Run the application.
 
 ## Features
