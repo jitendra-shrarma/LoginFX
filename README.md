@@ -9,7 +9,7 @@ This is a JavaFX project that demonstrates Login and SignUp functionality using 
 
 ## Getting Started
 
-1. Clone the repository: git clone https://github.com/username/login-signup-javafx.git
+1. Clone the repository: git clone git@github.com:jitendra-shrarma/LoginFX.git
 
 2. Open the project in your preferred Java IDE.
 
